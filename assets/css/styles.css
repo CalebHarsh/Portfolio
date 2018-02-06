@@ -1,0 +1,83 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+/* Parallex Pictures  */
+.bgimg1, .bgimg2, .bgimg3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg1 {
+  background-image: url("../images/pic-1.jpg");
+  min-height: 100%;
+}
+.bgimg2 {
+  background-image: url("../images/pic-2.jpg");
+  min-height: 350px;
+}
+.bgimg3 {
+  background-image: url("../images/pic-4.jpg");
+  min-height: 200px;
+}
+
+/* Parallex Caption */
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  z-index: 99;
+}
+.caption1 {
+  top: 50% !important;
+}
+.caption span.border {
+  background-color: black;
+  color: #fff;
+  padding: 3%;
+}
+.blur {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0.45;
+  background-color: slategrey
+}
+
+/* Carousel Settings */
+.carousel-item img {
+  height: auto; 
+  border-radius: 10px;
+}
+.banner {
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 44%;
+  z-index: 99;
+  color: black;
+  background-color: white;
+  border-top: solid 3px rgb(1, 1, 95);
+  margin-bottom: 0px;
+  border-radius: 10px;
+  display: none;
+}
+
+.logo {
+  width: 60px;
+}
+
+.profile-info {
+  min-height: 20%;
+}
+
+.clear {
+  clear: both;
+}
